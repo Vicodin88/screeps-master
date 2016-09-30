@@ -1,4 +1,4 @@
-﻿var roleTower =
+var roleTower =
 {
 	run: function (tower) {
 		var structs = tower.room.find(FIND_STRUCTURES, {
