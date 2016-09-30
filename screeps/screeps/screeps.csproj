@@ -47,14 +47,14 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="functions.js" />
-    <Content Include="main.js" />
-    <Content Include="role.builder.js" />
-    <Content Include="role.upgrader.js" />
     <Content Include="ScreepsAutocomplete\Config\SublimeCodeIntel.json" />
     <Content Include="ScreepsAutocomplete\Readme.md" />
-    <Content Include="role.harvester.js" />
-    <Content Include="role.tower.js" />
+    <Content Include="source\functions.js" />
+    <Content Include="source\main.js" />
+    <Content Include="source\role.builder.js" />
+    <Content Include="source\role.harvester.js" />
+    <Content Include="source\role.tower.js" />
+    <Content Include="source\role.upgrader.js" />
     <None Include="_references.js" />
   </ItemGroup>
   <ItemGroup>
