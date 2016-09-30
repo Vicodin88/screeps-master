@@ -38,7 +38,8 @@ var roleHarvester =
 				}
 			}
 		}
-		else if (!creep.memory.shouldRepair) {
+		else //if (!creep.memory.shouldRepair) {
+        {
 			if (creep.carry.energy > 0 && !creep.memory.isWorking) {
 				creep.memory.isWorking = true;
 			}

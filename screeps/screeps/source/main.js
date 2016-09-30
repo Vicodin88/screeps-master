@@ -19,8 +19,7 @@ module.exports.loop = function () {
 
     for (var creepName in Game.creeps) {
         var creep = Game.creeps[creepName];
-
-
+        
         /*var objectUnderCreep = creep.room.lookForAt(LOOK_STRUCTURES,creep.pos);
         var roadFoundUnderCreep = false;
         for (var object in objectUnderCreep) {
